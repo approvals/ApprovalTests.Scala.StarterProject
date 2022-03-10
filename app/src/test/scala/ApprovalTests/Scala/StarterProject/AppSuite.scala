@@ -34,5 +34,6 @@ class AppSuiteTest {
 class AppSuite extends AnyFunSuite {
   test("ScalaTest does not support Approvals") {
     assertEquals("Hello, Approvals!", App.greeting())
+//    Approvals.verify(App.greeting()) //  not currently supported
   }
 }
