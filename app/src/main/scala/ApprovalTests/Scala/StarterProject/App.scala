@@ -8,5 +8,5 @@ object App {
     println(greeting())
   }
 
-  def greeting(): String = "Hello, world!"
+  def greeting(): String = "Hello, Approvals!"
 }

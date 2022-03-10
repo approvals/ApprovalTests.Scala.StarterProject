@@ -2,7 +2,11 @@ package ApprovalTests.Scala.StarterProject
 
 import org.approvaltests.{Approvals, JsonApprovals}
 import org.approvaltests.combinations.CombinationApprovals
+import org.junit.Assert.assertEquals
+import org.junit.runner.RunWith
 import org.junit.{Assert, Test}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatestplus.junit.JUnitRunner
 
 class AppSuiteTest {
   @Test def testNormalJUnitTest(): Unit = {
@@ -23,5 +27,12 @@ class AppSuiteTest {
   @Test def testUsingApprovalsAndJson () {
     def hero = new Person("jayne", "cobb", true, 38)
     JsonApprovals.verifyAsJson(hero)
+  }
+}
+
+@RunWith(classOf[JUnitRunner])
+class AppSuite extends AnyFunSuite {
+  test("ScalaTest does not support Approvals") {
+    assertEquals("Hello, Approvals!", App.greeting())
   }
 }
