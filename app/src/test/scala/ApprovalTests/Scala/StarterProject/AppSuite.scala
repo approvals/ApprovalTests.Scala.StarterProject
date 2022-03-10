@@ -12,6 +12,6 @@ class AppSuiteTest {
     Approvals.verify("Hello World")
   }
   @Test def testUsingApprovalCombinations(): Unit = {
-    val numbers: Array[java.lang.Integer] = Array( 10 , 20 , 30 , 40 , 50 )
-    CombinationApprovals.verifyAllCombinations( (a: java.lang.Integer , b: java.lang.Integer) => s"$a + $b" , numbers, numbers)}
+    val numbers: Array[Integer] = Array( 10 , 20 , 30 , 40 , 50 )
+    CombinationApprovals.verifyAllCombinations( (a: Integer , b: Integer) => s"$a + $b" , numbers, numbers)}
 }
