@@ -27,7 +27,7 @@ dependencies {
     implementation 'com.google.guava:guava:31.1-jre'
 
     // Use Scalatest for testing our library
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2' 
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0' 
     testImplementation 'org.scalatest:scalatest_2.13:3.3.0-SNAP3'
     testImplementation 'org.scalatestplus:junit-4-13_2.13:3.3.0.0-SNAP3'
     testImplementation("com.approvaltests:approvaltests:17.1.0")
