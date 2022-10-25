@@ -31,7 +31,7 @@ dependencies {
     testImplementation 'org.scalatest:scalatest_2.13:3.3.0-SNAP3'
     testImplementation 'org.scalatestplus:junit-4-13_2.13:3.3.0.0-SNAP3'
     testImplementation("com.approvaltests:approvaltests:18.5.0")
-    testImplementation("com.google.code.gson:gson:2.9.1") 
+    testImplementation("com.google.code.gson:gson:2.10") 
     
     // Need scala-xml at test runtime
     testRuntimeOnly 'org.scala-lang.modules:scala-xml_2.13:2.1.0'
