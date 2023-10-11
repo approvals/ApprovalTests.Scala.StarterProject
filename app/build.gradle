@@ -24,7 +24,7 @@ dependencies {
     implementation 'org.scala-lang:scala-library:2.13.12'
 
     // This dependency is used by the application.
-    implementation 'com.google.guava:guava:32.1.2-jre'
+    implementation 'com.google.guava:guava:32.1.3-jre'
 
     // Use Scalatest for testing our library
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' 
