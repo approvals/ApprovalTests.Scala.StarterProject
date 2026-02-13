@@ -30,7 +30,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:6.0.2' 
     testImplementation 'org.scalatest:scalatest_2.13:3.3.0-SNAP4'
     testImplementation 'org.scalatestplus:junit-4-13_2.13:3.3.0.0-SNAP3'
-    testImplementation("com.approvaltests:approvaltests:26.7.1")
+    testImplementation("com.approvaltests:approvaltests:27.0.0")
     testImplementation("com.google.code.gson:gson:2.13.2") 
     
     // Need scala-xml at test runtime
